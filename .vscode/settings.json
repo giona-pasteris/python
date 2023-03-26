@@ -4,12 +4,19 @@
 
 "latex-workshop.latex.recipes": [
     {
-      "name": "pdflatex-1",
+      "name": "pdflatex-linux",
       "tools": [
         "pdflatex",
-        "copypdf",
+        "copypdf-linux",
       ]
-    }
+    },
+    {
+      "name": "pdflatex-win",
+      "tools": [
+        "pdflatex",
+        "copypdf-win",
+      ]
+    },
 ],
 
 "latex-workshop.latex.tools": [
@@ -26,11 +33,20 @@
       "env": {}
     },
     {
-        "name": "copypdf",
+        "name": "copypdf-linux",
         "command": "cp",
         "args": [
           "%OUTDIR_W32%/%DOCFILE%.pdf",
           "%DIR_W32%/"
+        ]
+      },
+
+      {
+        "name": "copypdf-win",
+        "command": "xcopy",
+        "args": [
+          "%OUTDIR/%DOCFILE%.pdf",
+          "%DIR/"
         ]
       },
 ],
