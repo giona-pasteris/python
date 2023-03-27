@@ -40,13 +40,13 @@
           "%DIR_W32%/"
         ]
       },
-
       {
         "name": "copypdf-win",
         "command": "xcopy",
         "args": [
-          "%OUTDIR/%DOCFILE%.pdf",
-          "%DIR/"
+          "%OUTDIR_W32%\\%DOCFILE%.pdf",
+          "%DIR_W32%\\",
+          "/y"
         ]
       },
 ],
