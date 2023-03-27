@@ -3,8 +3,14 @@
 "latex-workshop.latex.outDir": "%DIR%/tmp",
 
 "latex-workshop.latex.recipes": [
+  {
+    "name": "pdflatex",
+    "tools": [
+      "pdflatex",
+    ]
+  },
     {
-      "name": "pdflatex-linux",
+      "name": "pdflatex-cp",
       "tools": [
         "pdflatex",
         "copypdf-linux",
