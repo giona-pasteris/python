@@ -4,6 +4,8 @@ Repo per il corso facoltativo Ingenium 2023/2024
 
 
 # LaTeX
+comandi bash
+
 `sudo apt update`
 
 `sudo apt install texlive texlive-latex-extra texlive-science texlive-lang-italian`
