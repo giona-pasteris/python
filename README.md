@@ -4,7 +4,7 @@ Repo per il corso facoltativo Ingenium 2023/2024
 
 
 # LaTeX
-comandi bash
+Comandi bash da eseguire per installare LaTex
 
 `sudo apt update`
 
